@@ -1,0 +1,158 @@
+body{
+    
+;
+    
+}
+
+#title{
+    
+    background-color: #ff4c68;
+}
+.col-lg-6 h1{
+    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    color:azure;
+}
+.container-fluid{
+    padding:5% 8%;
+    
+}
+.navbar-brand{
+    padding-left: 0;
+    font-size: 1.5rem;
+}
+.navbar{
+    margin-bottom: 2rem;
+    padding-left: 0;
+}
+.nav-item{
+    padding:0 50px;
+    
+    
+}
+.but-k{
+    
+    margin-top:20px;
+    margin-bottom:30px; 
+}
+.but-p{
+    
+    
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.tits{
+    z-index:0;
+    width: 40%;
+position:absolute;;
+transform: rotate(20deg);
+    left:15%;
+}
+#features{
+    background-color: azure;
+padding: 7% 15%; 
+    position:relative;
+    z-index: 10;
+}
+.feature-box{
+    text-align: center;
+    padding:5%;
+    
+}
+h3{
+font-family: 'Montserrat-Bold 700', sans-serif;
+    font-size: 1.5rem;
+}
+.tik
+{margin-bottom: 1rem;
+    color:#ef8172;;
+}
+.tik:hover{
+    color:#ff4c68 ;
+margin-bottom: 1rem;
+}
+/*    tesiminial*/
+    
+#testimonials
+{
+    font-family: 'Montserrat';
+ background-color:#ef8172; 
+    text-align: center;
+    color: white;
+    padding:7% 15%;
+    
+}
+.test-img{
+    border-radius: 100%;
+    margin:20px;
+    
+}
+#press{
+    background-color:#ef8172;
+text-align: center;
+    padding-bottom: 3%;
+}
+.pre{
+    width: 15%;
+    margin: 20px 20px 50px;
+    }
+.card-header{
+    font-weight:800;;
+
+    
+}
+
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.sec{
+    text-align: center;
+    background-color:#ff4c68;
+    padding:05%;
+}
+.fk{
+    
+    padding: 3.8%
+}
+.fk h3{
+    margin-bottom: 2%;
+    font-size:02rem;
+    color: white;
+    font-family: 'Montserrat-Bold 700', sans-serif;
+}
+#footer{
+    text-align: center;
+    padding: 6% 5% 5%;
+}
+.ft{
+    text-align: center;
+    
+}
+span{
+    margin: 2%;
+    background-color: beige;
+}
+span:hover{
+    transform: rotate(+30deg);
+    background-color: #ff4c68;
+}
+
+@media(max-width:1200px)
+{
+    .tits{
+        
+        position: static;
+        transform: rotate(0);
+        
+    }
+    #title{
+        
+        text-align: center;
+    }
+    
+}
